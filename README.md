@@ -25,5 +25,19 @@ This add-in is particularly useful for **Revit users** who need to streamline **
 ### **1️⃣ Download and Extract**  
 Download the latest release from **[GitHub Releases](https://github.com/hwikene/RunDynamoScript/releases)**.  
 
-### **2️⃣ Copy Files**  
+### **2️⃣ Required Dependencies**  
+This add-in relies on **Dynamo for Revit libraries**. Ensure you have the necessary **.dll** files installed.  
+You can download them from the **official NuGet package**:  
+
+🔗 **[DynamoVisualProgramming.Revit NuGet Package](https://www.nuget.org/packages/DynamoVisualProgramming.Revit)**  
+
+This package includes:
+- `RevitNodes.dll`
+- `RevitServices.dll`
+- `DynamoRevitDS.dll`
+- `DSRevitNodesUI.dll`
+
+These files are required for Dynamo to interact with Revit properly.
+
+### **3️⃣ Copy Files**  
 Copy the required files (`.dll` and `.addin`) into:  
